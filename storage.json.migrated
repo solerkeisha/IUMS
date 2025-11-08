@@ -1,0 +1,252 @@
+{
+  "accounts": {
+    "owner": {
+      "username": "owner",
+      "password": "ownerpass",
+      "role": "Owner",
+      "debtLimit": 10000.0,
+      "alerts": [],
+      "settings": {}
+    },
+    "keisha": {
+      "username": "keisha",
+      "password": "123",
+      "role": "Customer",
+      "debtLimit": 1000.0,
+      "alerts": [
+        {
+          "id": "927c2756-bff2-4c34-a93d-30fc84657669",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T15:54:13.179374",
+          "message": "New utang pending: bugas - ₱ 1,000.00. OTP for confirmation: 306147",
+          "read": false
+        },
+        {
+          "id": "f5d20d8f-1dc1-4a96-b8f4-a0ef64038582",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T15:52:06.078350",
+          "message": "New utang pending: bugas - ₱ 1,000.00. OTP for confirmation: 228448",
+          "read": false
+        },
+        {
+          "id": "39488b99-9085-49b9-b83b-4ce7da5f6eb7",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T15:37:17.017494",
+          "message": "New utang added: dsds - ₱ 1,000.00. OTP for confirmation: 209304",
+          "read": false
+        },
+        {
+          "id": "5e42fec1-5202-4a24-a962-f3a621f1bb73",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T15:22:11.068875",
+          "message": "New utang:  - ₱ 1,000.00. OTP: 332321",
+          "read": false
+        },
+        {
+          "id": "1b6c5d3a-aa30-45ea-9f33-e63c0b678e5b",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T14:41:50.555315",
+          "message": "New utang:  - ₱ 1,300.00. OTP: 925135",
+          "read": false
+        },
+        {
+          "id": "6f1175de-caf6-4404-9bbd-85f7faffc907",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T14:41:28.809864",
+          "message": "New utang:  - ₱ 1,000.00. OTP: 679841",
+          "read": false
+        },
+        {
+          "id": "07105ef5-dab0-427d-9d85-1c5548b4f4de",
+          "date": "2025-10-17",
+          "timestamp": "2025-10-17T14:13:43.319345",
+          "message": "New utang:  - ₱ 1,000.00. OTP: 177476",
+          "read": false
+        },
+        {
+          "id": "1c5e8313-718e-4222-b10b-3a1d21ee520e",
+          "date": "2025-10-17",
+          "message": "New debt added:  - ₱ 1,000.00. OTP: 134413",
+          "read": false
+        },
+        {
+          "date": "2025-10-17",
+          "msg": "New UTANG added:  - ₱500.00 OTP: 606883"
+        },
+        {
+          "date": "2025-10-17",
+          "msg": "New UTANG added:  - ₱0.00 OTP: 521034"
+        }
+      ],
+      "settings": {}
+    },
+    "Jen": {
+      "username": "Jen",
+      "password": "1234",
+      "role": "Staff",
+      "debtLimit": 0.0,
+      "personalInfo": {
+        "full_name": "Jenevive Sanchez",
+        "contact_number": "09631325782",
+        "address": "Napolan"
+      },
+      "created_date": "2025-10-17T15:58:36.657983",
+      "alerts": []
+    }
+  },
+  "transactions": {
+    "3ebe1d2c-8ecf-4540-9f3b-f795e804641e": {
+      "id": "3ebe1d2c-8ecf-4540-9f3b-f795e804641e",
+      "customer": "keisha",
+      "type": "utang",
+      "item": "",
+      "amount": 0.0,
+      "date": "2025-10-17",
+      "due": "2025-10-17",
+      "confirmed": false,
+      "otp": "521034",
+      "created_by": "owner"
+    },
+    "6b972b84-f8fa-4326-9fcf-09755da58014": {
+      "id": "6b972b84-f8fa-4326-9fcf-09755da58014",
+      "customer": "keisha",
+      "type": "utang",
+      "item": "",
+      "amount": 500.0,
+      "date": "2025-10-17",
+      "due": "2025-10-17",
+      "confirmed": false,
+      "otp": "606883",
+      "created_by": "owner"
+    },
+    "54f38b35-c186-4e04-ad7d-9005cccc5b93": {
+      "id": "54f38b35-c186-4e04-ad7d-9005cccc5b93",
+      "customer": "keisha",
+      "type": "payment",
+      "description": "",
+      "amount": 500.0,
+      "date": "2025-10-17",
+      "due_date": "2025-10-17",
+      "confirmed": false,
+      "otp": "193119",
+      "created_by": "owner",
+      "created_at": "2025-10-17T13:12:53.112287"
+    },
+    "fcfcd241-d0f3-47e5-81ad-987da3844514": {
+      "id": "fcfcd241-d0f3-47e5-81ad-987da3844514",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "due_date": "2025-10-17",
+      "confirmed": false,
+      "otp": "134413",
+      "created_by": "owner"
+    },
+    "de0dbf10-0dc7-438a-8f54-9fd9f21c2a32": {
+      "id": "de0dbf10-0dc7-438a-8f54-9fd9f21c2a32",
+      "customer": "keisha",
+      "type": "payment",
+      "description": "",
+      "amount": 500.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "612068",
+      "created_by": "owner",
+      "created_at": "2025-10-17T13:37:33.784672"
+    },
+    "2e075167-d118-4ae3-8fe8-e91be8b4bf5d": {
+      "id": "2e075167-d118-4ae3-8fe8-e91be8b4bf5d",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "177476",
+      "created_by": "owner",
+      "created_at": "2025-10-17T14:13:43.311274"
+    },
+    "856c7575-9ec0-4bb3-abed-31af146161d1": {
+      "id": "856c7575-9ec0-4bb3-abed-31af146161d1",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "679841",
+      "created_by": "owner",
+      "created_at": "2025-10-17T14:41:28.801951"
+    },
+    "45318936-b511-4c29-8731-1b6dcec939f1": {
+      "id": "45318936-b511-4c29-8731-1b6dcec939f1",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "",
+      "amount": 1300.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "925135",
+      "created_by": "owner",
+      "created_at": "2025-10-17T14:41:50.548928"
+    },
+    "1898b5cf-d483-4610-9750-6938b3908e71": {
+      "id": "1898b5cf-d483-4610-9750-6938b3908e71",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "332321",
+      "created_by": "owner",
+      "created_at": "2025-10-17T15:22:11.060085"
+    },
+    "1dcd7627-94ef-4630-a3ac-e0ce4f6e6b6a": {
+      "id": "1dcd7627-94ef-4630-a3ac-e0ce4f6e6b6a",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "dsds",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "209304",
+      "created_by": "owner",
+      "created_at": "2025-10-17T15:37:17.010664"
+    },
+    "adbcb301-6ab4-4e20-9f3e-f758a748580d": {
+      "id": "adbcb301-6ab4-4e20-9f3e-f758a748580d",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "bugas",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "228448",
+      "created_by": "owner",
+      "created_at": "2025-10-17T15:52:06.078350",
+      "status": "pending_otp"
+    },
+    "6af8ca71-1719-46b8-b3ca-8e4dc77eea5f": {
+      "id": "6af8ca71-1719-46b8-b3ca-8e4dc77eea5f",
+      "customer": "keisha",
+      "type": "utang",
+      "description": "bugas",
+      "amount": 1000.0,
+      "date": "2025-10-17",
+      "confirmed": false,
+      "otp": "306147",
+      "created_by": "owner",
+      "created_at": "2025-10-17T15:54:13.179374",
+      "status": "pending_otp"
+    }
+  },
+  "systemSettings": {
+    "defaultDebtLimit": 1000.0,
+    "allowStaffPayments": true,
+    "currencySymbol": "₱",
+    "dataResetFlag": false
+  }
+}
